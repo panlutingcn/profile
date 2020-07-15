@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+
+body {
+  background-color:#14b1ab;
+  font-family: Arial;
+  color: #204051;
+  font-size: large;
+  line-height: normal;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color:#e8505b;
+  font-family: 'Merienda One', cursive;
+  font-size: x-large;
+  line-height: normal;
+}
+
+h2 {
+  font-size: larger;
+  line-height: normal;
+}
+
+a:hover {
+  color:#f3ecc2;
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-green {
+  background-color: #87d4c5;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 20px;
+  box-shadow: 5px 5px 10px white;
+}
+
+#img-circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
