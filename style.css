@@ -22,7 +22,7 @@ h2 {
 }
 
 a:hover {
-  color:#f3ecc2;
+  color:#f9d56e;
   text-decoration: none;
 }
 
@@ -39,6 +39,19 @@ a:hover {
   box-shadow: 5px 5px 10px white;
 }
 
+.card-green a {
+  text-decoration: none;
+}
+
+.btn-green {
+  background-color: #14b1ab;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+  color: #f3ecc2;
+}
+
 #img-circle {
   border-radius: 50%;
   width: 200px;
@@ -52,4 +65,13 @@ a:hover {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+}
+
+.icon {
+  color: #14b1ab;
+  font-size: 30px;
+}
+
+.icon:hover {
+  color:#f9d56e;
 }
